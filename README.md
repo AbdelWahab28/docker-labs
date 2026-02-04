@@ -1,9 +1,10 @@
 # 🐳 Docker Labs
 
-Ce dépôt contient une série de **laboratoires pratiques Docker** que j'ai réalisés dans un objectif
+Ce dépôt contient une série de **projet pratiques Docker** que j'ai réalisés dans un objectif
 de montée en compétences **DevOps / DevSecOps** à travers des scénarios concrets et réalistes.
 
-Chaque lab est conçu comme un mini-projet indépendant, documenté et reproductible.
+Chaque projet reflète une problématique concrète rencontrée en environnement professionnel
+(déploiement applicatif, orchestration, isolation des services, sécurité, automatisation).
 
 ---
 
@@ -46,7 +47,7 @@ Chaque lab est conçu comme un mini-projet indépendant, documenté et reproduct
 
 ```bash
 docker-labs/
-├── lab-01-fullstack-react-laravel-mysql/
+├── application fullstack multi-services avec Docker Compose(./lab-01-fullstack-react-laravel-mysql)
 ├── lab-02-php-mysql-docker-compose/
 ├── lab-03-docker-swarm-fullstack/
 ├── lab-04-devsecops-docker-swarm/
