@@ -20,12 +20,13 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 ## Labs disponibles
 
+
 | Lab | Description | Statut | Lien |
-|----|------------|--------|
-| Lab 01 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ En cours | (./lab-01-fullstack-react-laravel-mysql) |
-| Lab 02 | Application PHP + MySQL (Docker Compose) | ⏳ À venir |
-| Lab 03 | Déploiement Fullstack avec Docker Swarm | ⏳ À venir |
-| Lab 04 | Docker Swarm + approche DevSecOps | ⏳ À venir |
+|----|------------|--------|------|
+| Lab 01 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ En cours | [Voir le lab](./lab-01-fullstack-react-laravel-mysql) |
+| Lab 02 | Application PHP + MySQL (Docker Compose) | ⏳ À venir | — |
+| Lab 03 | Déploiement Fullstack avec Docker Swarm | ⏳ À venir | — |
+| Lab 04 | Docker Swarm + approche DevSecOps | ⏳ À venir | — |
 
 ---
 
