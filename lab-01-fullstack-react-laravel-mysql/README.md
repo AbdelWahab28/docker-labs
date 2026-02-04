@@ -70,7 +70,7 @@ Utilisateur
 ### Étapes détaillées
 
 ```bash
-git clone https://github.com/<ton-username>/docker-labs.git (1️⃣ **Cloner le repository**)
+git clone https://github.com/AbdelWahab28/docker-labs.git (1️⃣ **Cloner le repository**)
 
 cd docker-labs/lab-01-fullstack-react-laravel-mysql 
 
