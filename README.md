@@ -1,4 +1,4 @@
-# 🐳 Docker Labs – Portfolio DevOps / DevSecOps
+# 🐳 Docker Labs
 
 Ce dépôt contient une série de **laboratoires pratiques Docker** que j'ai réalisés dans un objectif
 de montée en compétences **DevOps / DevSecOps** à travers des scénarios concrets et réalistes.
