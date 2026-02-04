@@ -69,21 +69,23 @@ Utilisateur
 
 ### Étapes détaillées
 
-1️⃣ **Cloner le repository**
 ```bash
-git clone https://github.com/<ton-username>/docker-labs.git
+git clone https://github.com/<ton-username>/docker-labs.git (1️⃣ **Cloner le repository**)
 
-cd docker-labs/lab-01-fullstack-react-laravel-mysql
+cd docker-labs/lab-01-fullstack-react-laravel-mysql 
 
-docker build -t frontend-react:v1 ./Frontend
+docker build -t frontend-react:v1 ./Frontend (2️⃣ **Construire l’image du frontend React**)
 
-docker build -t backend-laravel:v1 ./Backend
+docker build -t backend-laravel:v1 ./Backend (3️⃣ **Construire l’image du backend Laravel**)
 
-docker images
+docker images (4️⃣ **Vérifier les images créées**)
 
-docker compose up -d
+docker compose up -d (5️⃣ **Lancer tous les services avec Docker Compose**)
 
-docker compose ps
+docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d’exécution**)
+
+7️⃣ **Accéder à l’application**
+http://localhost:3000
 
 
 ## 📁 Organisation du projet
@@ -96,6 +98,5 @@ lab-01-fullstack-react-laravel-mysql/
 │   └── Dockerfile
 ├── backend/
 │   └── Dockerfile
-├── mysql/
 ├── screenshots/
 └── README.md
