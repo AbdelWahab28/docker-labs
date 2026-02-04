@@ -4,7 +4,7 @@ Ce dépôt contient une série de labs pratiques Docker, Docker Compose et Docke
 
 ## Sommaire des projets
 
-- [Lab 1 – Dockerfile Basics](./lab-01-dockerfile-basics)  
+- [Lab 1 – Déploiement d'une application Fullstack(react-laravel-mysql) avec docker-compose](./lab-01-fullstack-react-laravel-mysql)  
   Comprendre la création et le build d’une image Docker simple.
 
 - [Lab 2 – Docker Compose Multi-Container](./lab-02-docker-compose-multi-container)  
