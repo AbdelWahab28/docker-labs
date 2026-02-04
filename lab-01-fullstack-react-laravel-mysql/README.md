@@ -94,9 +94,9 @@ http://localhost:3000
 lab-01-fullstack-react-laravel-mysql/
 │
 ├── docker-compose.yml
-├── frontend/
+├── Frontend/
 │   └── Dockerfile
-├── backend/
+├── Backend/
 │   └── Dockerfile
 ├── screenshots/
 └── README.md
