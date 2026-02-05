@@ -11,7 +11,8 @@ l’architecture conteneurisée et l’orchestration des services.
 
 La même approche s’appliquerait à une application plus complète utilisant le même stack.
 
----
+---<img width="1917" height="976" alt="articlepage" src="https://github.com/user-attachments/assets/a217db5d-35ad-4a1a-b631-c93637e0ad4b" />
+
 
 ##  Objectifs techniques
 
