@@ -85,7 +85,7 @@ docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d�
 7️⃣ **Accéder à l’application**
 http://localhost:3000
 
-<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/c51b162d-0356-420a-bb31-42778ac4ca28" />
+<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/58152e7c-1024-4536-b8ee-ed1901c5f34e" />
 
 ## 📁 Organisation du projet
 ```bash
