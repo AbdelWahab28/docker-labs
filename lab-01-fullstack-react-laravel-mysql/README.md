@@ -19,8 +19,12 @@ La même approche s’appliquerait à une application plus complète utilisant l
 - Orchestrer l’ensemble avec Docker Compose
 - Assurer la communication inter-services et la persistance des données
 
----
+<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/9656befc-1e78-474d-96fc-2102d41f1409" />
+<img width="1917" height="976" alt="homepage1" src="https://github.com/user-attachments/assets/0243d0ba-87e5-4d83-889b-8b72006b298a" />
+<img width="1450" height="457" alt="docker-up" src="https://github.com/user-attachments/assets/9f2c8cd5-521b-4143-bc1e-afd466a4ea6d" />
+<img width="1462" height="467" alt="docker-up2" src="https://github.com/user-attachments/assets/f11a3b5b-82ae-45b5-8ff2-78cc34e959c0" />
 
+---
 ## 🧱 Architecture
 
 L’architecture repose sur trois services définis dans le fichier `docker-compose.yml`.
@@ -84,8 +88,6 @@ docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d�
 
 7️⃣ **Accéder à l’application**
 http://localhost:3000
-
-<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/58152e7c-1024-4536-b8ee-ed1901c5f34e" />
 
 ## 📁 Organisation du projet
 ```bash
