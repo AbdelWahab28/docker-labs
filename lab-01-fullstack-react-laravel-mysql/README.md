@@ -11,9 +11,6 @@ l’architecture conteneurisée et l’orchestration des services.
 
 La même approche s’appliquerait à une application plus complète utilisant le même stack.
 
----<img width="1917" height="976" alt="articlepage" src="https://github.com/user-attachments/assets/a217db5d-35ad-4a1a-b631-c93637e0ad4b" />
-
-
 ##  Objectifs techniques
 
 - Construire une image Docker pour le frontend React
@@ -88,9 +85,12 @@ docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d�
 7️⃣ **Accéder à l’application**
 http://localhost:3000
 
+<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/c51b162d-0356-420a-bb31-42778ac4ca28" />
+<img width="1917" height="976" alt="homepage1" src="https://github.com/user-attachments/assets/7e3d25f5-27b0-4597-83ff-0c77b8e26500" />
+<img width="1450" height="457" alt="docker-up1" src="https://github.com/user-attachments/assets/e7c54f4b-fbdb-4b2c-9ad6-7d3b728e3eb8" />
+<img width="1462" height="467" alt="docker-up2" src="https://github.com/user-attachments/assets/a7161511-5136-4db3-bea3-32115056d28a" />
 
 ## 📁 Organisation du projet
-
 ```bash
 lab-01-fullstack-react-laravel-mysql/
 │
@@ -99,5 +99,4 @@ lab-01-fullstack-react-laravel-mysql/
 │   └── Dockerfile
 ├── Backend/
 │   └── Dockerfile
-├── screenshots/
 └── README.md
