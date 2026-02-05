@@ -54,4 +54,9 @@ docker-labs/
 ├── lab-04-devsecops-docker-swarm/
 └── README.md
 
+👤 Auteur
+**Abdourahamane AbdelWahab**
+Engineer Cybersecurite | DevSecOps | SOC Analyst | Cloud Security & Automatisation
+📧 Contact : LinkedIn / GitHub  
+📦 Repository : docker-labs
 
