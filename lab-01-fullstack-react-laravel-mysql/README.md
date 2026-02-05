@@ -90,7 +90,6 @@ docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d�
 http://localhost:3000
 
 ## 📁 Organisation du projet
-```bash
 lab-01-fullstack-react-laravel-mysql/
 │
 ├── docker-compose.yml
