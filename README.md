@@ -1,6 +1,6 @@
 # 🐳 Docker Labs
 
-Ce dépôt contient une série de **projet pratiques Docker** que j'ai réalisés dans un objectif
+Ce dépôt contient une série de **projets pratiques Docker** que j'ai réalisés dans un objectif
 de montée en compétences **DevOps / DevSecOps** à travers des scénarios concrets et réalistes.
 
 Chaque projet reflète une problématique concrète rencontrée en environnement professionnel
@@ -8,7 +8,7 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 ---
 
-## Objectifs du repository
+## 🎯 Objectifs du repository
 
 - Maîtriser Docker, Docker Compose et Docker Swarm
 - Déployer des applications **fullstack** en environnement conteneurisé
@@ -18,15 +18,14 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 ---
 
-## Labs disponibles
-
+## 🧪 Labs disponibles
 
 | Lab | Description | Statut | Lien |
 |----|------------|--------|------|
-| Lab 01 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ En cours | [lab-01](./lab-01-fullstack-react-laravel-mysql) |
-| Lab 02 | Application PHP + MySQL (Docker Compose) | ⏳ À venir | [lab-02](./lab-02-php-mysql-docker-compose) |
-| Lab 03 | Déploiement Fullstack avec Docker Swarm | ⏳ À venir | [lab-03](./lab-03-docker-swarm-fullstack) |
-| Lab 04 | Docker Swarm + approche DevSecOps | ⏳ À venir | [lab-04](./lab-04-devsecops-docker-swarm) |
+| 01 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ Terminer | [lab-01](./lab-01-fullstack-react-laravel-mysql) |
+| 02 | Application PHP + MySQL (Docker Compose) | ⏳ À venir | [lab-02](./lab-02-php-mysql-docker-compose) |
+| 03 | Déploiement Fullstack avec Docker Swarm | ⏳ À venir | [lab-03](./lab-03-docker-swarm-fullstack) |
+| 04 | Docker Swarm + approche DevSecOps | ⏳ À venir | [lab-04](./lab-04-devsecops-docker-swarm) |
 
 ---
 
@@ -53,10 +52,16 @@ docker-labs/
 ├── lab-03-docker-swarm-fullstack/
 ├── lab-04-devsecops-docker-swarm/
 └── README.md
+```
+## 👤 Auteur
+Abdourahamane AbdelWahab
+Engineer Cybersécurité | DevSecOps | SOC Analyst |
+Cloud Security & Automatisation
 
-👤 Auteur
-**Abdourahamane AbdelWahab**
-Engineer Cybersecurite | DevSecOps | SOC Analyst | Cloud Security & Automatisation
-📧 Contact : LinkedIn / GitHub  
-📦 Repository : docker-labs
+🔗 LinkedIn : https://www.linkedin.com/in/abdourahamaneabdelwahab
 
+🐙 GitHub : https://github.com/AbdelWahab28
+
+📧 Email : wahababdel2802@gmail.com  
+
+© 2026 AbdelWahab Abdourahamane. Tous droits réservés.
