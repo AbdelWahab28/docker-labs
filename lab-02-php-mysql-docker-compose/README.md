@@ -23,10 +23,8 @@ des applications PHP existantes ou des projets web simples.
 - Mettre en place la persistance des données MySQL avec un volume
 - Utiliser des variables d’environnement pour la configuration
 
-<!-- Captures d’écran à ajouter si besoin -->
-<!--
-<img src="..." />
--->
+<img width="1462" height="240" alt="1" src="https://github.com/user-attachments/assets/acaaf4e7-6b93-4655-a341-6e71da91c8e4" />
+<img width="1918" height="660" alt="2" src="https://github.com/user-attachments/assets/263bd110-fe24-4dc8-8aeb-8fe312bfdd94" />
 
 ---
 
