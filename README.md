@@ -22,8 +22,8 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 | Lab | Description | Statut | Lien |
 |----|------------|--------|------|
-| 01 | Application PHP + MySQL (Docker Compose) | ✅ Terminer | [lab-01](./lab-01-php-mysql-docker-compose) |
-| 02 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ Terminer | [lab-02](./lab-02-fullstack-react-laravel-mysql) |
+| 01 | Application PHP + MySQL (Docker Compose) | ✅ Terminer | [lab-01](./lab-02-php-mysql-docker-compose) |
+| 02 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ Terminer | [lab-02](./lab-01-fullstack-react-laravel-mysql) |
 | 03 | Déploiement Fullstack avec Docker Swarm + approche DevSecOps| ⏳ À venir | [lab-03](./lab-03-docker-swarm-fullstack) |
 
 ---
