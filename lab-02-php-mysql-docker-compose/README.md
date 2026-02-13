@@ -77,4 +77,15 @@ Utilisateur
 ### 🚀 Étapes détaillées
 
 ```bash
-git clone https://github.com/AbdelWahab28/docker-labs.git
+docker build -t phpapps:v1 .
+docker compose up -p
+docker compose ps
+
+http://localhost:8080/
+ identifiant: admin
+ paswword: admin
+```
+### Nettoyage
+```bash
+docker compose down -v
+```
