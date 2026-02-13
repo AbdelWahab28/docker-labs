@@ -22,10 +22,9 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 | Lab | Description | Statut | Lien |
 |----|------------|--------|------|
-| 01 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ Terminer | [lab-01](./lab-01-fullstack-react-laravel-mysql) |
-| 02 | Application PHP + MySQL (Docker Compose) | ⏳ À venir | [lab-02](./lab-02-php-mysql-docker-compose) |
-| 03 | Déploiement Fullstack avec Docker Swarm | ⏳ À venir | [lab-03](./lab-03-docker-swarm-fullstack) |
-| 04 | Docker Swarm + approche DevSecOps | ⏳ À venir | [lab-04](./lab-04-devsecops-docker-swarm) |
+| 01 | Application PHP + MySQL (Docker Compose) | ✅ Terminer | [lab-01](./lab-01-php-mysql-docker-compose) |
+| 02 | Fullstack React + Laravel + MySQL (Docker Compose) | ✅ Terminer | [lab-02](./lab-02-fullstack-react-laravel-mysql) |
+| 03 | Déploiement Fullstack avec Docker Swarm + approche DevSecOps| ⏳ À venir | [lab-03](./lab-03-docker-swarm-fullstack) |
 
 ---
 
@@ -47,10 +46,9 @@ Chaque projet reflète une problématique concrète rencontrée en environnement
 
 ```bash
 docker-labs/
-├── lab-01-fullstack-react-laravel-mysql/
-├── lab-02-php-mysql-docker-compose/
+├── lab-01-php-mysql-docker-compose/
+├── lab-02-fullstack-react-laravel-mysql/
 ├── lab-03-docker-swarm-fullstack/
-├── lab-04-devsecops-docker-swarm/
 └── README.md
 ```
 ## 👤 Auteur
