@@ -1,33 +1,39 @@
-#  Lab 01 – Déploiement d’un stack Fullstack React / Laravel / MySQL avec Docker Compose
+# Lab 03 – Déploiement Fullstack avec Docker Swarm + approche DevSecOps
 
-##  Présentation du projet
+## Présentation du projet
 
-Ce projet démontre le **déploiement d’un stack fullstack React / Laravel / MySQL**
-à l’aide de **Docker et Docker Compose**.
+Ce projet démontre le **déploiement d’un stack Fullstack (React / Laravel / MySQL)** 
+en utilisant **Docker Swarm** comme orchestrateur.
 
-L’application déployée est volontairement **simple (page d’accueil fonctionnelle)**.
-L’objectif principal n’est pas la complexité fonctionnelle, mais la **méthode de déploiement**,
-l’architecture conteneurisée et l’orchestration des services.
+Contrairement au Lab 01 basé sur Docker Compose, ici l’objectif est de :
 
-La même approche s’appliquerait à une application plus complète utilisant le même stack.
+- Déployer les services dans un cluster Swarm
+- Utiliser les services Docker au lieu de simples conteneurs
+- Mettre en place une approche orientée DevSecOps
+- Appliquer des bonnes pratiques d’architecture et de sécurité
 
-##  Objectifs techniques
-
-- Construire une image Docker pour le frontend React
-- Construire une image Docker pour le backend Laravel
-- Déployer MySQL comme service Docker
-- Orchestrer l’ensemble avec Docker Compose
-- Assurer la communication inter-services et la persistance des données
-
-<img width="1917" height="952" alt="homepage" src="https://github.com/user-attachments/assets/9656befc-1e78-474d-96fc-2102d41f1409" />
-<img width="1917" height="976" alt="homepage1" src="https://github.com/user-attachments/assets/0243d0ba-87e5-4d83-889b-8b72006b298a" />
-<img width="1450" height="457" alt="docker-up" src="https://github.com/user-attachments/assets/9f2c8cd5-521b-4143-bc1e-afd466a4ea6d" />
-<img width="1462" height="467" alt="docker-up2" src="https://github.com/user-attachments/assets/f11a3b5b-82ae-45b5-8ff2-78cc34e959c0" />
+L’application reste volontairement simple, l’objectif étant de maîtriser
+l’orchestration et la sécurisation du déploiement.
 
 ---
-## 🧱 Architecture
+<img width="1538" height="578" alt="14" src="https://github.com/user-attachments/assets/5d21a238-800b-4f77-a0ac-ac56b1f3b8bc" />
 
-L’architecture repose sur trois services définis dans le fichier `docker-compose.yml`.
+<img width="1542" height="870" alt="15" src="https://github.com/user-attachments/assets/924459ba-4390-4a95-86f6-47d13e249692" />
+
+## Objectifs techniques
+
+- Initialiser un cluster Docker Swarm
+- Déployer le frontend React comme service
+- Déployer le backend Laravel comme service
+- Déployer MySQL avec volume persistant
+- Mettre en place une architecture réseau interne sécurisée
+- Appliquer des bonnes pratiques DevSecOps
+
+---
+
+## Architecture
+
+L’architecture repose sur trois services principaux déployés dans le cluster Swarm.
 
 Utilisateur
 │
@@ -40,61 +46,62 @@ Utilisateur
 ▼
 [ MySQL ]
 
-
 ### Principes appliqués
-- Un conteneur par composant
-- Communication via réseau Docker interne
-- Persistance des données MySQL via volume
-- Architecture reproductible
+
+- Orchestration via Docker Swarm
+- Services répliqués (scalabilité possible)
+- Réseau overlay interne
+- Volume persistant pour MySQL
+- Isolation des services
 
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 - Docker
-- Docker Compose
+- Docker Swarm
 - React
 - Laravel
 - MySQL
 - Linux
+- Overlay Network
+- Trivy
+- Docker Benchmark
+- Falcon security
 
 ---
 
-## ⚙️ Exécution et déploiement du projet
+## Prérequis
 
-### Prérequis
-- Docker
-- Docker Compose
+- Docker installé
+- Mode Swarm activé
 - Git
 
 ---
 
-### Étapes détaillées
+## Initialisation du cluster Swarm
 
 ```bash
-git clone https://github.com/AbdelWahab28/docker-labs.git (1️⃣ **Cloner le repository**)
-
-cd docker-labs/lab-01-fullstack-react-laravel-mysql 
-
-docker build -t frontend-react:v1 ./Frontend (2️⃣ **Construire l’image du frontend React**)
-
-docker build -t backend-laravel:v1 ./Backend (3️⃣ **Construire l’image du backend Laravel**)
-
-docker images (4️⃣ **Vérifier les images créées**)
-
-docker compose up -d (5️⃣ **Lancer tous les services avec Docker Compose**)
-
-docker compose ps (6️⃣ **Vérifier que tous les conteneurs sont en cours d’exécution**)
-
-7️⃣ **Accéder à l’application**
-http://localhost:3000
-
-## 📁 Organisation du projet
-lab-01-fullstack-react-laravel-mysql/
+docker swarm init
+docker node ls
+docker build -t reactapp:v1.1 ./Frontend
+docker build -t laravelapp:v1.1 ./Backend
+docker stack deploy -c docker-stack.yaml appfullstack --deploy=false
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:latest image reactapp:v1.1
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:latest image laravelapp:v1.1
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:latest image mysql:8.0
+git clone https://github.com/docker/docker-bench-security.git
+cd docker-bench-security
+sudo sh docker-bench-security.sh
+nano falco-swarm.yaml
+```
+```bash
+lab-03-docker-swarm-devsecops/
 │
-├── docker-compose.yml
+├── docker-stack.yml
 ├── Frontend/
-│   └── Dockerfile
+│ └── Dockerfile
 ├── Backend/
-│   └── Dockerfile
+│ └── Dockerfile
 └── README.md
+```
