@@ -94,6 +94,7 @@ git clone https://github.com/docker/docker-bench-security.git
 cd docker-bench-security
 sudo sh docker-bench-security.sh
 nano falco-swarm.yaml
+docker stack deploy -c falco-swarm.yml falco-security --detach=false
 ```
 ```bash
 lab-03-docker-swarm-devsecops/
